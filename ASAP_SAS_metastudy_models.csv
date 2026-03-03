@@ -1,7 +1,7 @@
 item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,logsize,gpt,nvocab,vocab
 1,0,0.95,jiang_bosch_2024,0.715,bpe,gpt,prompt_engineer,0,gpt4_prompt_scoring_examples,1760000000000,1,1,100000,1
 1,0,0.95,jiang_bosch_2024,0.63,bpe,gpt,prompt_engineer,0,gpt4_co_t,1760000000000,1,1,100000,1
-1,0,0.95,jiang_bosch_2024,0.66,bpe,gpt,prompt_engineer,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
+1,0,0.95,jiang_bosch_2024,0.66,bpe,gpt,multiprompt,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
 1,0,0.95,jiang_bosch_2024,0.584,bpe,gpt,prompt_engineer,0,gpt4_prompt_only,1760000000000,1,1,100000,1
 1,0,0.95,jiang_bosch_2024,0.635,bpe,gpt,prompt_engineer,0,gpt4_score_rationale,1760000000000,1,1,100000,1
 1,0,0.95,jiang_bosch_2024,0.63,bpe,gpt,prompt_engineer,0,gpt4_rationale_score,1760000000000,1,1,100000,1
@@ -18,11 +18,11 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 1,0,0.95,ormerod_2022,0.866,wp,elec,fine-tune_all_parms,1,enc_electra_l,335000000,0.27498438936910385,0,31000,0.31
 1,0,0.95,ormerod_2022,0.843,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_l,355000000,0.2798919613943212,0,50000,0.5
 1,0,0.95,ormerod_2022,0.849,wp,bert,fine-tune_all_parms,1,enc_bert_base,110000000,0.18073405537925577,0,31000,0.31
-1,0,0.95,ormerod_2022,0.881,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420382,0,128000,1.28
+1,0,0.95,ormerod_2022,0.881,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420385,0,128000,1.28
 1,0,0.95,ormerod_2022,0.846,wp,elec,fine-tune_all_parms,1,enc_electra_base,110000000,0.18073405537925577,0,31000,0.31
 1,0,0.95,ormerod_2022,0.809,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_base,124000000,0.1908730590261093,0,50000,0.5
-1,0,0.95,ormerod_2022,0.822,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.18595529959142482,0,32000,0.32
-1,0,0.95,ormerod_2022,0.838,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.027541117367231263,0,31000,0.31
+1,0,0.95,ormerod_2022,0.822,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.1859552995914248,0,32000,0.32
+1,0,0.95,ormerod_2022,0.838,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.02754111736723126,0,31000,0.31
 1,0,0.95,ormerod_2022,0.822,wp,dbert,fine-tune_all_parms,1,enc_distilled_bert,67000000,0.13877459439980044,0,31000,0.31
 1,0,0.95,ormerod_2022,0.838,wp,elec,fine-tune_all_parms,1,enc_electra_small,13000000,0,0,31000,0.31
 1,0,0.95,ormerod_2022,0.846,wp,mbert,fine-tune_all_parms,1,enc_mobile_bert,25000000,0.05534304204115077,0,31000,0.31
@@ -41,7 +41,7 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 1,0,0.95,surya_2019,0.79,wp,bert,fine-tune_all_parms,1,enc_bert_base_surya19,110000000,0.18073405537925577,0,31000,0.31
 2,0,0.93,jiang_bosch_2024,0.724,bpe,gpt,prompt_engineer,0,gpt4_prompt_scoring_examples,1760000000000,1,1,100000,1
 2,0,0.93,jiang_bosch_2024,0.669,bpe,gpt,prompt_engineer,0,gpt4_co_t,1760000000000,1,1,100000,1
-2,0,0.93,jiang_bosch_2024,0.634,bpe,gpt,prompt_engineer,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
+2,0,0.93,jiang_bosch_2024,0.634,bpe,gpt,multiprompt,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
 2,0,0.93,jiang_bosch_2024,0.658,bpe,gpt,prompt_engineer,0,gpt4_prompt_only,1760000000000,1,1,100000,1
 2,0,0.93,jiang_bosch_2024,0.654,bpe,gpt,prompt_engineer,0,gpt4_score_rationale,1760000000000,1,1,100000,1
 2,0,0.93,jiang_bosch_2024,0.669,bpe,gpt,prompt_engineer,0,gpt4_rationale_score,1760000000000,1,1,100000,1
@@ -58,11 +58,11 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 2,0,0.93,ormerod_2022,0.855,wp,elec,fine-tune_all_parms,1,enc_electra_l,335000000,0.27498438936910385,0,31000,0.31
 2,0,0.93,ormerod_2022,0.844,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_l,355000000,0.2798919613943212,0,50000,0.5
 2,0,0.93,ormerod_2022,0.772,wp,bert,fine-tune_all_parms,1,enc_bert_base,110000000,0.18073405537925577,0,31000,0.31
-2,0,0.93,ormerod_2022,0.865,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420382,0,128000,1.28
+2,0,0.93,ormerod_2022,0.865,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420385,0,128000,1.28
 2,0,0.93,ormerod_2022,0.81,wp,elec,fine-tune_all_parms,1,enc_electra_base,110000000,0.18073405537925577,0,31000,0.31
 2,0,0.93,ormerod_2022,0.821,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_base,124000000,0.1908730590261093,0,50000,0.5
-2,0,0.93,ormerod_2022,0.784,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.18595529959142482,0,32000,0.32
-2,0,0.93,ormerod_2022,0.762,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.027541117367231263,0,31000,0.31
+2,0,0.93,ormerod_2022,0.784,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.1859552995914248,0,32000,0.32
+2,0,0.93,ormerod_2022,0.762,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.02754111736723126,0,31000,0.31
 2,0,0.93,ormerod_2022,0.78,wp,dbert,fine-tune_all_parms,1,enc_distilled_bert,67000000,0.13877459439980044,0,31000,0.31
 2,0,0.93,ormerod_2022,0.78,wp,elec,fine-tune_all_parms,1,enc_electra_small,13000000,0,0,31000,0.31
 2,0,0.93,ormerod_2022,0.779,wp,mbert,fine-tune_all_parms,1,enc_mobile_bert,25000000,0.05534304204115077,0,31000,0.31
@@ -81,7 +81,7 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 2,0,0.93,surya_2019,0.7,wp,bert,fine-tune_all_parms,1,enc_bert_base_surya19,110000000,0.18073405537925577,0,31000,0.31
 3,1,0.77,jiang_bosch_2024,0.626,bpe,gpt,prompt_engineer,0,gpt4_prompt_scoring_examples,1760000000000,1,1,100000,1
 3,1,0.77,jiang_bosch_2024,0.359,bpe,gpt,prompt_engineer,0,gpt4_co_t,1760000000000,1,1,100000,1
-3,1,0.77,jiang_bosch_2024,0.491,bpe,gpt,prompt_engineer,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
+3,1,0.77,jiang_bosch_2024,0.491,bpe,gpt,multiprompt,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
 3,1,0.77,jiang_bosch_2024,0.501,bpe,gpt,prompt_engineer,0,gpt4_prompt_only,1760000000000,1,1,100000,1
 3,1,0.77,jiang_bosch_2024,0.514,bpe,gpt,prompt_engineer,0,gpt4_score_rationale,1760000000000,1,1,100000,1
 3,1,0.77,jiang_bosch_2024,0.359,bpe,gpt,prompt_engineer,0,gpt4_rationale_score,1760000000000,1,1,100000,1
@@ -98,11 +98,11 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 3,1,0.77,ormerod_2022,0.717,wp,elec,fine-tune_all_parms,1,enc_electra_l,335000000,0.27498438936910385,0,31000,0.31
 3,1,0.77,ormerod_2022,0.704,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_l,355000000,0.2798919613943212,0,50000,0.5
 3,1,0.77,ormerod_2022,0.692,wp,bert,fine-tune_all_parms,1,enc_bert_base,110000000,0.18073405537925577,0,31000,0.31
-3,1,0.77,ormerod_2022,0.677,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420382,0,128000,1.28
+3,1,0.77,ormerod_2022,0.677,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420385,0,128000,1.28
 3,1,0.77,ormerod_2022,0.714,wp,elec,fine-tune_all_parms,1,enc_electra_base,110000000,0.18073405537925577,0,31000,0.31
 3,1,0.77,ormerod_2022,0.683,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_base,124000000,0.1908730590261093,0,50000,0.5
-3,1,0.77,ormerod_2022,0.675,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.18595529959142482,0,32000,0.32
-3,1,0.77,ormerod_2022,0.624,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.027541117367231263,0,31000,0.31
+3,1,0.77,ormerod_2022,0.675,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.1859552995914248,0,32000,0.32
+3,1,0.77,ormerod_2022,0.624,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.02754111736723126,0,31000,0.31
 3,1,0.77,ormerod_2022,0.659,wp,dbert,fine-tune_all_parms,1,enc_distilled_bert,67000000,0.13877459439980044,0,31000,0.31
 3,1,0.77,ormerod_2022,0.702,wp,elec,fine-tune_all_parms,1,enc_electra_small,13000000,0,0,31000,0.31
 3,1,0.77,ormerod_2022,0.698,wp,mbert,fine-tune_all_parms,1,enc_mobile_bert,25000000,0.05534304204115077,0,31000,0.31
@@ -121,7 +121,7 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 3,1,0.77,surya_2019,0.37,wp,bert,fine-tune_all_parms,1,enc_bert_base_surya19,110000000,0.18073405537925577,0,31000,0.31
 4,1,0.75,jiang_bosch_2024,0.517,bpe,gpt,prompt_engineer,0,gpt4_prompt_scoring_examples,1760000000000,1,1,100000,1
 4,1,0.75,jiang_bosch_2024,0.598,bpe,gpt,prompt_engineer,0,gpt4_co_t,1760000000000,1,1,100000,1
-4,1,0.75,jiang_bosch_2024,0.55,bpe,gpt,prompt_engineer,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
+4,1,0.75,jiang_bosch_2024,0.55,bpe,gpt,multiprompt,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
 4,1,0.75,jiang_bosch_2024,0.512,bpe,gpt,prompt_engineer,0,gpt4_prompt_only,1760000000000,1,1,100000,1
 4,1,0.75,jiang_bosch_2024,0.518,bpe,gpt,prompt_engineer,0,gpt4_score_rationale,1760000000000,1,1,100000,1
 4,1,0.75,jiang_bosch_2024,0.598,bpe,gpt,prompt_engineer,0,gpt4_rationale_score,1760000000000,1,1,100000,1
@@ -138,11 +138,11 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 4,1,0.75,ormerod_2022,0.764,wp,elec,fine-tune_all_parms,1,enc_electra_l,335000000,0.27498438936910385,0,31000,0.31
 4,1,0.75,ormerod_2022,0.679,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_l,355000000,0.2798919613943212,0,50000,0.5
 4,1,0.75,ormerod_2022,0.722,wp,bert,fine-tune_all_parms,1,enc_bert_base,110000000,0.18073405537925577,0,31000,0.31
-4,1,0.75,ormerod_2022,0.69,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420382,0,128000,1.28
+4,1,0.75,ormerod_2022,0.69,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420385,0,128000,1.28
 4,1,0.75,ormerod_2022,0.724,wp,elec,fine-tune_all_parms,1,enc_electra_base,110000000,0.18073405537925577,0,31000,0.31
 4,1,0.75,ormerod_2022,0.708,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_base,124000000,0.1908730590261093,0,50000,0.5
-4,1,0.75,ormerod_2022,0.68,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.18595529959142482,0,32000,0.32
-4,1,0.75,ormerod_2022,0.665,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.027541117367231263,0,31000,0.31
+4,1,0.75,ormerod_2022,0.68,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.1859552995914248,0,32000,0.32
+4,1,0.75,ormerod_2022,0.665,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.02754111736723126,0,31000,0.31
 4,1,0.75,ormerod_2022,0.685,wp,dbert,fine-tune_all_parms,1,enc_distilled_bert,67000000,0.13877459439980044,0,31000,0.31
 4,1,0.75,ormerod_2022,0.731,wp,elec,fine-tune_all_parms,1,enc_electra_small,13000000,0,0,31000,0.31
 4,1,0.75,ormerod_2022,0.74,wp,mbert,fine-tune_all_parms,1,enc_mobile_bert,25000000,0.05534304204115077,0,31000,0.31
@@ -161,7 +161,7 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 4,1,0.75,surya_2019,0.69,wp,bert,fine-tune_all_parms,1,enc_bert_base_surya19,110000000,0.18073405537925577,0,31000,0.31
 5,0,0.95,jiang_bosch_2024,0.772,bpe,gpt,prompt_engineer,0,gpt4_prompt_scoring_examples,1760000000000,1,1,100000,1
 5,0,0.95,jiang_bosch_2024,0.647,bpe,gpt,prompt_engineer,0,gpt4_co_t,1760000000000,1,1,100000,1
-5,0,0.95,jiang_bosch_2024,0.662,bpe,gpt,prompt_engineer,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
+5,0,0.95,jiang_bosch_2024,0.662,bpe,gpt,multiprompt,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
 5,0,0.95,jiang_bosch_2024,0.752,bpe,gpt,prompt_engineer,0,gpt4_prompt_only,1760000000000,1,1,100000,1
 5,0,0.95,jiang_bosch_2024,0.702,bpe,gpt,prompt_engineer,0,gpt4_score_rationale,1760000000000,1,1,100000,1
 5,0,0.95,jiang_bosch_2024,0.647,bpe,gpt,prompt_engineer,0,gpt4_rationale_score,1760000000000,1,1,100000,1
@@ -178,11 +178,11 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 5,0,0.95,ormerod_2022,0.835,wp,elec,fine-tune_all_parms,1,enc_electra_l,335000000,0.27498438936910385,0,31000,0.31
 5,0,0.95,ormerod_2022,0.815,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_l,355000000,0.2798919613943212,0,50000,0.5
 5,0,0.95,ormerod_2022,0.845,wp,bert,fine-tune_all_parms,1,enc_bert_base,110000000,0.18073405537925577,0,31000,0.31
-5,0,0.95,ormerod_2022,0.766,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420382,0,128000,1.28
+5,0,0.95,ormerod_2022,0.766,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420385,0,128000,1.28
 5,0,0.95,ormerod_2022,0.819,wp,elec,fine-tune_all_parms,1,enc_electra_base,110000000,0.18073405537925577,0,31000,0.31
 5,0,0.95,ormerod_2022,0.809,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_base,124000000,0.1908730590261093,0,50000,0.5
-5,0,0.95,ormerod_2022,0.814,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.18595529959142482,0,32000,0.32
-5,0,0.95,ormerod_2022,0.835,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.027541117367231263,0,31000,0.31
+5,0,0.95,ormerod_2022,0.814,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.1859552995914248,0,32000,0.32
+5,0,0.95,ormerod_2022,0.835,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.02754111736723126,0,31000,0.31
 5,0,0.95,ormerod_2022,0.813,wp,dbert,fine-tune_all_parms,1,enc_distilled_bert,67000000,0.13877459439980044,0,31000,0.31
 5,0,0.95,ormerod_2022,0.805,wp,elec,fine-tune_all_parms,1,enc_electra_small,13000000,0,0,31000,0.31
 5,0,0.95,ormerod_2022,0.829,wp,mbert,fine-tune_all_parms,1,enc_mobile_bert,25000000,0.05534304204115077,0,31000,0.31
@@ -201,7 +201,7 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 5,0,0.95,surya_2019,0.75,wp,bert,fine-tune_all_parms,1,enc_bert_base_surya19,110000000,0.18073405537925577,0,31000,0.31
 6,0,0.93,jiang_bosch_2024,0.799,bpe,gpt,prompt_engineer,0,gpt4_prompt_scoring_examples,1760000000000,1,1,100000,1
 6,0,0.93,jiang_bosch_2024,0.744,bpe,gpt,prompt_engineer,0,gpt4_co_t,1760000000000,1,1,100000,1
-6,0,0.93,jiang_bosch_2024,0.741,bpe,gpt,prompt_engineer,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
+6,0,0.93,jiang_bosch_2024,0.741,bpe,gpt,multiprompt,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
 6,0,0.93,jiang_bosch_2024,0.73,bpe,gpt,prompt_engineer,0,gpt4_prompt_only,1760000000000,1,1,100000,1
 6,0,0.93,jiang_bosch_2024,0.737,bpe,gpt,prompt_engineer,0,gpt4_score_rationale,1760000000000,1,1,100000,1
 6,0,0.93,jiang_bosch_2024,0.744,bpe,gpt,prompt_engineer,0,gpt4_rationale_score,1760000000000,1,1,100000,1
@@ -218,11 +218,11 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 6,0,0.93,ormerod_2022,0.836,wp,elec,fine-tune_all_parms,1,enc_electra_l,335000000,0.27498438936910385,0,31000,0.31
 6,0,0.93,ormerod_2022,0.844,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_l,355000000,0.2798919613943212,0,50000,0.5
 6,0,0.93,ormerod_2022,0.84,wp,bert,fine-tune_all_parms,1,enc_bert_base,110000000,0.18073405537925577,0,31000,0.31
-6,0,0.93,ormerod_2022,0.83,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420382,0,128000,1.28
+6,0,0.93,ormerod_2022,0.83,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420385,0,128000,1.28
 6,0,0.93,ormerod_2022,0.811,wp,elec,fine-tune_all_parms,1,enc_electra_base,110000000,0.18073405537925577,0,31000,0.31
 6,0,0.93,ormerod_2022,0.834,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_base,124000000,0.1908730590261093,0,50000,0.5
-6,0,0.93,ormerod_2022,0.824,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.18595529959142482,0,32000,0.32
-6,0,0.93,ormerod_2022,0.813,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.027541117367231263,0,31000,0.31
+6,0,0.93,ormerod_2022,0.824,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.1859552995914248,0,32000,0.32
+6,0,0.93,ormerod_2022,0.813,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.02754111736723126,0,31000,0.31
 6,0,0.93,ormerod_2022,0.787,wp,dbert,fine-tune_all_parms,1,enc_distilled_bert,67000000,0.13877459439980044,0,31000,0.31
 6,0,0.93,ormerod_2022,0.832,wp,elec,fine-tune_all_parms,1,enc_electra_small,13000000,0,0,31000,0.31
 6,0,0.93,ormerod_2022,0.824,wp,mbert,fine-tune_all_parms,1,enc_mobile_bert,25000000,0.05534304204115077,0,31000,0.31
@@ -241,7 +241,7 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 6,0,0.93,surya_2019,0.84,wp,bert,fine-tune_all_parms,1,enc_bert_base_surya19,110000000,0.18073405537925577,0,31000,0.31
 7,1,0.96,jiang_bosch_2024,0.495,bpe,gpt,prompt_engineer,0,gpt4_prompt_scoring_examples,1760000000000,1,1,100000,1
 7,1,0.96,jiang_bosch_2024,0.406,bpe,gpt,prompt_engineer,0,gpt4_co_t,1760000000000,1,1,100000,1
-7,1,0.96,jiang_bosch_2024,0.538,bpe,gpt,prompt_engineer,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
+7,1,0.96,jiang_bosch_2024,0.538,bpe,gpt,multiprompt,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
 7,1,0.96,jiang_bosch_2024,0.464,bpe,gpt,prompt_engineer,0,gpt4_prompt_only,1760000000000,1,1,100000,1
 7,1,0.96,jiang_bosch_2024,0.43,bpe,gpt,prompt_engineer,0,gpt4_score_rationale,1760000000000,1,1,100000,1
 7,1,0.96,jiang_bosch_2024,0.406,bpe,gpt,prompt_engineer,0,gpt4_rationale_score,1760000000000,1,1,100000,1
@@ -258,11 +258,11 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 7,1,0.96,ormerod_2022,0.715,wp,elec,fine-tune_all_parms,1,enc_electra_l,335000000,0.27498438936910385,0,31000,0.31
 7,1,0.96,ormerod_2022,0.719,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_l,355000000,0.2798919613943212,0,50000,0.5
 7,1,0.96,ormerod_2022,0.676,wp,bert,fine-tune_all_parms,1,enc_bert_base,110000000,0.18073405537925577,0,31000,0.31
-7,1,0.96,ormerod_2022,0.722,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420382,0,128000,1.28
+7,1,0.96,ormerod_2022,0.722,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420385,0,128000,1.28
 7,1,0.96,ormerod_2022,0.727,wp,elec,fine-tune_all_parms,1,enc_electra_base,110000000,0.18073405537925577,0,31000,0.31
 7,1,0.96,ormerod_2022,0.716,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_base,124000000,0.1908730590261093,0,50000,0.5
-7,1,0.96,ormerod_2022,0.686,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.18595529959142482,0,32000,0.32
-7,1,0.96,ormerod_2022,0.678,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.027541117367231263,0,31000,0.31
+7,1,0.96,ormerod_2022,0.686,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.1859552995914248,0,32000,0.32
+7,1,0.96,ormerod_2022,0.678,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.02754111736723126,0,31000,0.31
 7,1,0.96,ormerod_2022,0.687,wp,dbert,fine-tune_all_parms,1,enc_distilled_bert,67000000,0.13877459439980044,0,31000,0.31
 7,1,0.96,ormerod_2022,0.654,wp,elec,fine-tune_all_parms,1,enc_electra_small,13000000,0,0,31000,0.31
 7,1,0.96,ormerod_2022,0.676,wp,mbert,fine-tune_all_parms,1,enc_mobile_bert,25000000,0.05534304204115077,0,31000,0.31
@@ -281,7 +281,7 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 7,1,0.96,surya_2019,0.66,wp,bert,fine-tune_all_parms,1,enc_bert_base_surya19,110000000,0.18073405537925577,0,31000,0.31
 8,1,0.86,jiang_bosch_2024,0.553,bpe,gpt,prompt_engineer,0,gpt4_prompt_scoring_examples,1760000000000,1,1,100000,1
 8,1,0.86,jiang_bosch_2024,0.485,bpe,gpt,prompt_engineer,0,gpt4_co_t,1760000000000,1,1,100000,1
-8,1,0.86,jiang_bosch_2024,0.508,bpe,gpt,prompt_engineer,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
+8,1,0.86,jiang_bosch_2024,0.508,bpe,gpt,multiprompt,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
 8,1,0.86,jiang_bosch_2024,0.526,bpe,gpt,prompt_engineer,0,gpt4_prompt_only,1760000000000,1,1,100000,1
 8,1,0.86,jiang_bosch_2024,0.49,bpe,gpt,prompt_engineer,0,gpt4_score_rationale,1760000000000,1,1,100000,1
 8,1,0.86,jiang_bosch_2024,0.485,bpe,gpt,prompt_engineer,0,gpt4_rationale_score,1760000000000,1,1,100000,1
@@ -298,11 +298,11 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 8,1,0.86,ormerod_2022,0.669,wp,elec,fine-tune_all_parms,1,enc_electra_l,335000000,0.27498438936910385,0,31000,0.31
 8,1,0.86,ormerod_2022,0.662,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_l,355000000,0.2798919613943212,0,50000,0.5
 8,1,0.86,ormerod_2022,0.598,wp,bert,fine-tune_all_parms,1,enc_bert_base,110000000,0.18073405537925577,0,31000,0.31
-8,1,0.86,ormerod_2022,0.69,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420382,0,128000,1.28
+8,1,0.86,ormerod_2022,0.69,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420385,0,128000,1.28
 8,1,0.86,ormerod_2022,0.683,wp,elec,fine-tune_all_parms,1,enc_electra_base,110000000,0.18073405537925577,0,31000,0.31
 8,1,0.86,ormerod_2022,0.616,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_base,124000000,0.1908730590261093,0,50000,0.5
-8,1,0.86,ormerod_2022,0.663,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.18595529959142482,0,32000,0.32
-8,1,0.86,ormerod_2022,0.599,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.027541117367231263,0,31000,0.31
+8,1,0.86,ormerod_2022,0.663,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.1859552995914248,0,32000,0.32
+8,1,0.86,ormerod_2022,0.599,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.02754111736723126,0,31000,0.31
 8,1,0.86,ormerod_2022,0.61,wp,dbert,fine-tune_all_parms,1,enc_distilled_bert,67000000,0.13877459439980044,0,31000,0.31
 8,1,0.86,ormerod_2022,0.629,wp,elec,fine-tune_all_parms,1,enc_electra_small,13000000,0,0,31000,0.31
 8,1,0.86,ormerod_2022,0.611,wp,mbert,fine-tune_all_parms,1,enc_mobile_bert,25000000,0.05534304204115077,0,31000,0.31
@@ -321,7 +321,7 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 8,1,0.86,surya_2019,0.6,wp,bert,fine-tune_all_parms,1,enc_bert_base_surya19,110000000,0.18073405537925577,0,31000,0.31
 9,1,0.84,jiang_bosch_2024,0.703,bpe,gpt,prompt_engineer,0,gpt4_prompt_scoring_examples,1760000000000,1,1,100000,1
 9,1,0.84,jiang_bosch_2024,0.54,bpe,gpt,prompt_engineer,0,gpt4_co_t,1760000000000,1,1,100000,1
-9,1,0.84,jiang_bosch_2024,0.529,bpe,gpt,prompt_engineer,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
+9,1,0.84,jiang_bosch_2024,0.529,bpe,gpt,multiprompt,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
 9,1,0.84,jiang_bosch_2024,0.642,bpe,gpt,prompt_engineer,0,gpt4_prompt_only,1760000000000,1,1,100000,1
 9,1,0.84,jiang_bosch_2024,0.666,bpe,gpt,prompt_engineer,0,gpt4_score_rationale,1760000000000,1,1,100000,1
 9,1,0.84,jiang_bosch_2024,0.54,bpe,gpt,prompt_engineer,0,gpt4_rationale_score,1760000000000,1,1,100000,1
@@ -338,11 +338,11 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 9,1,0.84,ormerod_2022,0.837,wp,elec,fine-tune_all_parms,1,enc_electra_l,335000000,0.27498438936910385,0,31000,0.31
 9,1,0.84,ormerod_2022,0.838,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_l,355000000,0.2798919613943212,0,50000,0.5
 9,1,0.84,ormerod_2022,0.829,wp,bert,fine-tune_all_parms,1,enc_bert_base,110000000,0.18073405537925577,0,31000,0.31
-9,1,0.84,ormerod_2022,0.84,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420382,0,128000,1.28
+9,1,0.84,ormerod_2022,0.84,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420385,0,128000,1.28
 9,1,0.84,ormerod_2022,0.841,wp,elec,fine-tune_all_parms,1,enc_electra_base,110000000,0.18073405537925577,0,31000,0.31
 9,1,0.84,ormerod_2022,0.829,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_base,124000000,0.1908730590261093,0,50000,0.5
-9,1,0.84,ormerod_2022,0.804,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.18595529959142482,0,32000,0.32
-9,1,0.84,ormerod_2022,0.83,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.027541117367231263,0,31000,0.31
+9,1,0.84,ormerod_2022,0.804,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.1859552995914248,0,32000,0.32
+9,1,0.84,ormerod_2022,0.83,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.02754111736723126,0,31000,0.31
 9,1,0.84,ormerod_2022,0.822,wp,dbert,fine-tune_all_parms,1,enc_distilled_bert,67000000,0.13877459439980044,0,31000,0.31
 9,1,0.84,ormerod_2022,0.818,wp,elec,fine-tune_all_parms,1,enc_electra_small,13000000,0,0,31000,0.31
 9,1,0.84,ormerod_2022,0.816,wp,mbert,fine-tune_all_parms,1,enc_mobile_bert,25000000,0.05534304204115077,0,31000,0.31
@@ -361,7 +361,7 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 9,1,0.84,surya_2019,0.8,wp,bert,fine-tune_all_parms,1,enc_bert_base_surya19,110000000,0.18073405537925577,0,31000,0.31
 10,0,0.87,jiang_bosch_2024,0.865,bpe,gpt,prompt_engineer,0,gpt4_prompt_scoring_examples,1760000000000,1,1,100000,1
 10,0,0.87,jiang_bosch_2024,0.653,bpe,gpt,prompt_engineer,0,gpt4_co_t,1760000000000,1,1,100000,1
-10,0,0.87,jiang_bosch_2024,0.723,bpe,gpt,prompt_engineer,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
+10,0,0.87,jiang_bosch_2024,0.723,bpe,gpt,multiprompt,0,gpt4_multihop_co_t,1760000000000,1,1,100000,1
 10,0,0.87,jiang_bosch_2024,0.745,bpe,gpt,prompt_engineer,0,gpt4_prompt_only,1760000000000,1,1,100000,1
 10,0,0.87,jiang_bosch_2024,0.753,bpe,gpt,prompt_engineer,0,gpt4_score_rationale,1760000000000,1,1,100000,1
 10,0,0.87,jiang_bosch_2024,0.653,bpe,gpt,prompt_engineer,0,gpt4_rationale_score,1760000000000,1,1,100000,1
@@ -378,11 +378,11 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 10,0,0.87,ormerod_2022,0.724,wp,elec,fine-tune_all_parms,1,enc_electra_l,335000000,0.27498438936910385,0,31000,0.31
 10,0,0.87,ormerod_2022,0.762,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_l,355000000,0.2798919613943212,0,50000,0.5
 10,0,0.87,ormerod_2022,0.717,wp,bert,fine-tune_all_parms,1,enc_bert_base,110000000,0.18073405537925577,0,31000,0.31
-10,0,0.87,ormerod_2022,0.733,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420382,0,128000,1.28
+10,0,0.87,ormerod_2022,0.733,uni,deb,fine-tune_all_parms,1,enc_de_ber_ta_v3_base_1,184000000,0.22427339473420385,0,128000,1.28
 10,0,0.87,ormerod_2022,0.724,wp,elec,fine-tune_all_parms,1,enc_electra_base,110000000,0.18073405537925577,0,31000,0.31
 10,0,0.87,ormerod_2022,0.73,bpe,rob,fine-tune_all_parms,1,enc_ro_ber_ta_base,124000000,0.1908730590261093,0,50000,0.5
-10,0,0.87,ormerod_2022,0.718,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.18595529959142482,0,32000,0.32
-10,0,0.87,ormerod_2022,0.716,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.027541117367231263,0,31000,0.31
+10,0,0.87,ormerod_2022,0.718,uni,xln,fine-tune_all_parms,1,enc_x_net_base,117000000,0.1859552995914248,0,32000,0.32
+10,0,0.87,ormerod_2022,0.716,wp,cbert,fine-tune_all_parms,1,enc_conv_bert,18000000,0.02754111736723126,0,31000,0.31
 10,0,0.87,ormerod_2022,0.715,wp,dbert,fine-tune_all_parms,1,enc_distilled_bert,67000000,0.13877459439980044,0,31000,0.31
 10,0,0.87,ormerod_2022,0.727,wp,elec,fine-tune_all_parms,1,enc_electra_small,13000000,0,0,31000,0.31
 10,0,0.87,ormerod_2022,0.725,wp,mbert,fine-tune_all_parms,1,enc_mobile_bert,25000000,0.05534304204115077,0,31000,0.31
@@ -399,3 +399,183 @@ item,read,humqwk,study,qwk,token,model,training,ftune,implementation,mod_size,lo
 10,0,0.87,zeng_2023,0.73,wp,bert,fine-tune_all_parms,1,enc_ber_tstat_cl,110000000,0.18073405537925577,0,31000,0.31
 10,0,0.87,zeng_2023,0.733,wp,bert,fine-tune_all_parms,1,enc_ber_tadapt_cl,110000000,0.18073405537925577,0,31000,0.31
 10,0,0.87,surya_2019,0.74,wp,bert,fine-tune_all_parms,1,enc_bert_base_surya19,110000000,0.18073405537925577,0,31000,0.31
+1,0,0.95,kim_2025,0.8,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+1,0,NA,kim_2025,0.8,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+2,0,0.93,kim_2025,0.86,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+2,0,NA,kim_2025,0.86,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+3,1,0.77,kim_2025,0.64,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+3,1,NA,kim_2025,0.64,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+4,1,0.75,kim_2025,0.59,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+4,1,NA,kim_2025,0.59,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+5,0,0.95,kim_2025,0.79,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+5,0,NA,kim_2025,0.79,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+6,0,0.93,kim_2025,0.78,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+6,0,NA,kim_2025,0.78,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+7,1,0.96,kim_2025,0.61,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+7,1,NA,kim_2025,0.61,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+8,1,0.86,kim_2025,0.59,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+8,1,NA,kim_2025,0.59,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+9,1,0.84,kim_2025,0.8,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+9,1,NA,kim_2025,0.8,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+10,0,0.87,kim_2025,0.68,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+10,0,NA,kim_2025,0.68,bpe,gpt,multiprompt,0,ANALYTICSCORE w/ GPT-4.1-mini*,NA,19.583831553758046,1,100000,1
+1,0,0.95,kim_2025,0.57,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+1,0,NA,kim_2025,0.57,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+2,0,0.93,kim_2025,0.57,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+2,0,NA,kim_2025,0.57,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+3,1,0.77,kim_2025,0.59,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+3,1,NA,kim_2025,0.59,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+4,1,0.75,kim_2025,0.56,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+4,1,NA,kim_2025,0.56,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+5,0,0.95,kim_2025,0.69,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+5,0,NA,kim_2025,0.69,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+6,0,0.93,kim_2025,0.47,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+6,0,NA,kim_2025,0.47,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+7,1,0.96,kim_2025,0.52,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+7,1,NA,kim_2025,0.52,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+8,1,0.86,kim_2025,0.45,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+8,1,NA,kim_2025,0.45,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+9,1,0.84,kim_2025,0.74,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+9,1,NA,kim_2025,0.74,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+10,0,0.87,kim_2025,0.6,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+10,0,NA,kim_2025,0.6,bpe,lla,multiprompt,0,ANALYTICSCORE w/ Llama-3.1-8b Inst*,NA,22.806450364905082,1,128000,1.28
+1,0,0.95,kim_2025,0.8,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+1,0,NA,kim_2025,0.8,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+2,0,0.93,kim_2025,0.82,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+2,0,NA,kim_2025,0.82,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+3,1,0.77,kim_2025,0.68,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+3,1,NA,kim_2025,0.68,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+4,1,0.75,kim_2025,0.59,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+4,1,NA,kim_2025,0.59,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+5,0,0.95,kim_2025,0.81,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+5,0,NA,kim_2025,0.81,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+6,0,0.93,kim_2025,0.76,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+6,0,NA,kim_2025,0.76,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+7,1,0.96,kim_2025,0.62,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+7,1,NA,kim_2025,0.62,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+8,1,0.86,kim_2025,0.59,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+8,1,NA,kim_2025,0.59,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+9,1,0.84,kim_2025,0.78,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+9,1,NA,kim_2025,0.78,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+10,0,0.87,kim_2025,0.64,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+10,0,NA,kim_2025,0.64,bpe,lla,LORA_fine-tune+prompt,1,ANALYTICSCORE + Distillation*,NA,22.806450364905082,1,128000,1.28
+1,0,0.95,kim_2025,0.69,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+1,0,NA,kim_2025,0.69,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+2,0,0.93,kim_2025,0.65,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+2,0,NA,kim_2025,0.65,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+3,1,0.77,kim_2025,0.61,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+3,1,NA,kim_2025,0.61,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+4,1,0.75,kim_2025,0.65,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+4,1,NA,kim_2025,0.65,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+5,0,0.95,kim_2025,0.72,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+5,0,NA,kim_2025,0.72,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+6,0,0.93,kim_2025,0.61,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+6,0,NA,kim_2025,0.61,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+7,1,0.96,kim_2025,0.34,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+7,1,NA,kim_2025,0.34,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+8,1,0.86,kim_2025,0.57,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+8,1,NA,kim_2025,0.57,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+9,1,0.84,kim_2025,0.76,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+9,1,NA,kim_2025,0.76,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+10,0,0.87,kim_2025,0.69,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+10,0,NA,kim_2025,0.69,bpe,gpt,prompt_engineer,0,Few-Shot GPT-4.1,NA,28.196334924978608,1,100000,1
+1,0,0.95,kim_2025,0.8,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+1,0,NA,kim_2025,0.8,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+2,0,0.93,kim_2025,0.8,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+2,0,NA,kim_2025,0.8,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+3,1,0.77,kim_2025,0.7,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+3,1,NA,kim_2025,0.7,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+4,1,0.75,kim_2025,0.7,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+4,1,NA,kim_2025,0.7,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+5,0,0.95,kim_2025,0.8,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+5,0,NA,kim_2025,0.8,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+6,0,0.93,kim_2025,0.81,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+6,0,NA,kim_2025,0.81,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+7,1,0.96,kim_2025,0.69,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+7,1,NA,kim_2025,0.69,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+8,1,0.86,kim_2025,0.68,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+8,1,NA,kim_2025,0.68,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+9,1,0.84,kim_2025,0.84,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+9,1,NA,kim_2025,0.84,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+10,0,0.87,kim_2025,0.71,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+10,0,NA,kim_2025,0.71,wp,bert,fine-tune_all_parms,1,Supervised LLM BERT,NA,19.62964108978934,0,31000,0.31
+1,0,0.95,kim_2025,0.85,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+1,0,NA,kim_2025,0.85,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+2,0,0.93,kim_2025,0.86,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+2,0,NA,kim_2025,0.86,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+3,1,0.77,kim_2025,0.66,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+3,1,NA,kim_2025,0.66,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+4,1,0.75,kim_2025,0.7,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+4,1,NA,kim_2025,0.7,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+5,0,0.95,kim_2025,0.81,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+5,0,NA,kim_2025,0.81,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+6,0,0.93,kim_2025,0.83,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+6,0,NA,kim_2025,0.83,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+7,1,0.96,kim_2025,0.71,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+7,1,NA,kim_2025,0.71,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+8,1,0.86,kim_2025,0.64,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+8,1,NA,kim_2025,0.64,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+9,1,0.84,kim_2025,0.79,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+9,1,NA,kim_2025,0.79,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+10,0,0.87,kim_2025,0.71,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+10,0,NA,kim_2025,0.71,wp,dbert,fine-tune_all_parms,1,Supervised LLM DeBERTa,NA,19.03044631557326,0,128000,1.28
+1,0,0.95,kim_2025,0.84,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+1,0,NA,kim_2025,0.84,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+2,0,0.93,kim_2025,0.73,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+2,0,NA,kim_2025,0.73,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+3,1,0.77,kim_2025,0.72,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+3,1,NA,kim_2025,0.72,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+4,1,0.75,kim_2025,0.71,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+4,1,NA,kim_2025,0.71,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+5,0,0.95,kim_2025,0.82,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+5,0,NA,kim_2025,0.82,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+6,0,0.93,kim_2025,0.81,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+6,0,NA,kim_2025,0.81,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+7,1,0.96,kim_2025,0.71,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+7,1,NA,kim_2025,0.71,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+8,1,0.86,kim_2025,0.66,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+8,1,NA,kim_2025,0.66,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+9,1,0.84,kim_2025,0.82,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+9,1,NA,kim_2025,0.82,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+10,0,0.87,kim_2025,0.75,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+10,0,NA,kim_2025,0.75,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst.,NA,22.806450364905082,1,128000,1.28
+1,0,0.95,kim_2025,0.87,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+1,0,NA,kim_2025,0.87,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+2,0,0.93,kim_2025,0.8,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+2,0,NA,kim_2025,0.8,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+3,1,0.77,kim_2025,0.68,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+3,1,NA,kim_2025,0.68,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+4,1,0.75,kim_2025,0.77,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+4,1,NA,kim_2025,0.77,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+5,0,0.95,kim_2025,0.85,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+5,0,NA,kim_2025,0.85,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+6,0,0.93,kim_2025,0.8,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+6,0,NA,kim_2025,0.8,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+7,1,0.96,kim_2025,0.72,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+7,1,NA,kim_2025,0.72,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+8,1,0.86,kim_2025,0.65,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+8,1,NA,kim_2025,0.65,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+9,1,0.84,kim_2025,0.84,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+9,1,NA,kim_2025,0.84,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+10,0,0.87,kim_2025,0.79,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+10,0,NA,kim_2025,0.79,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b Inst. w/ rubric,NA,22.806450364905082,1,128000,1.28
+1,0,0.95,kim_2025,0.83,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+1,0,NA,kim_2025,0.83,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+2,0,0.93,kim_2025,0.75,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+2,0,NA,kim_2025,0.75,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+3,1,0.77,kim_2025,0.7,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+3,1,NA,kim_2025,0.7,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+4,1,0.75,kim_2025,0.77,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+4,1,NA,kim_2025,0.77,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+5,0,0.95,kim_2025,0.82,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+5,0,NA,kim_2025,0.82,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+6,0,0.93,kim_2025,0.84,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+6,0,NA,kim_2025,0.84,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+7,1,0.96,kim_2025,0.68,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+7,1,NA,kim_2025,0.68,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+8,1,0.86,kim_2025,0.65,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+8,1,NA,kim_2025,0.65,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+9,1,0.84,kim_2025,0.82,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+9,1,NA,kim_2025,0.82,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+10,0,0.87,kim_2025,0.74,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28
+10,0,NA,kim_2025,0.74,bpe,lla,LORA_fine-tune+prompt,1,Supervised LLM Llama-3.1-8b,NA,22.806450364905082,1,128000,1.28

@@ -164,8 +164,6 @@ m5 = lmer(qwk ~0+ token
           control = lmerControl(optimizer = "bobyqa", 
                                 calc.derivs = FALSE,
                                 optCtrl = list(maxfun = 3e5))
-          
-          
 )
 
 m6 = lmer(qwk ~0+ token
